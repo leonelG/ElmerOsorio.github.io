@@ -136,8 +136,51 @@ aside{
     line-height: 23px;
     color: #4F5561;
 }
+.number_comments{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    border-radius: 0;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #4F6DB3;
+}
 @media (max-width: 768px) {
     aside{
         display: none;
+    }
+    .notas{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    p{
+        font-size: 16px;
+    }
+    .front-banner{
+        margin: 0;
+        height: auto;
+    }
+    .nota-carrousel{
+        margin-right: 0;
+    }
+    main{
+        margin: 0 16px;
+    }
+    .nota-carrousel_comentarios{
+        padding: 16px 0;
+        margin: 8px 0;
+
+    }
+    .comentarios{
+        margin: 0;
+        padding: 0;
+    }
+    .container_comments{
+        margin: 12px 0;
+        padding: 12px 0;
     }
 }

@@ -480,30 +480,45 @@ footer a{
         height: auto;
     }
     .upper{
-        flex-direction: column;
-        align-items: center;
+        justify-content: space-between;
+    }
+    .logo{
+        margin: auto 4px;
+    }
+    .logo-header{
+        height: 48px;
     }
     .user-btns{
-        width: 100%;
         background: #353535;
+    }
+    .hide{
+        display: none;
     }
     img{
         width: 100%;
     }
-    .logo{
-        margin: auto;
-    }
     nav{
-        display: none;
+        justify-content: flex-start;
+        align-items: flex-start;
+        overflow-x: scroll;
+    }
+    .nav-btn{
+        white-space: pre;
     }
     .container{
         display: flex;
         flex-direction: column;
         padding: 4px 4px;
-        margin-top: 136px;
     }
     .anuncio-ppal{
-        display: none;
+        width: 340px;
+        height: auto;
+        margin: 128px auto 4px auto;
+    }
+    .gif-ppal{
+        width: 340px;
+        height: auto;
+        margin: auto;
     }
     .tendencias{
         display: none;

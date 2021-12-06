@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>33 Predicciones futuristas hechas en el pasado
+    <head>
         <title>33 Predicciones futuristas hechas en el pasado</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="styles/style.css">
+        <link rel="stylesheet" href="styles/style_articulo.css">        
         <link rel="stylesheet" href="styles/articulos.css">
-        <link rel="stylesheet" href="styles/style_articulo.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
@@ -26,17 +26,17 @@
                        </script>
         
     </head>
-    <body id="story">
+    <body>
         <header>
             <div class="upper">
                 <div class="logo">
-                    <a href="index.html"><img src="img/adultinn_logo.png" alt="Adult_Inn_Logo"></a>
+                    <a href="index.html"><img class="logo-header" src="img/adultinn_logo.png" alt="Adult_Inn_Logo"></a>
                 </div>
                 <div class="user-btns">
                     <ul>
                         <li>
                             <a  href="#" target="_blank"><span>Suscríbete</span></a>
-                            <a  href="#" target="_blank"><img src="img/mail_outline.svg" alt=""></a>
+                            <span class="hide"><a  href="#" target="_blank"><img src="img/mail_outline.svg" alt=""></a></span>
                             <a  href="#" target="_blank"><img src="img/search.svg" alt=""></a>
                         </li>
                     </ul>
@@ -59,9 +59,9 @@
             <a href="https://www.devf.la" target="blank"><img class="gif-ppal" src="img/devfad.gif" alt=""></a>
         </div>
             
-        <container class="articulo">
+        <div class="articulo">
 
-            <section class="front-banner">
+            <div class="front-banner">
                 <div class="tema-noticia">
                     <box class="btn-noticia" id="btn-article">TECNOLOGÍA</box>
                     <h1>33 Predicciones futuristas hechas en el pasado</h1>
@@ -74,19 +74,19 @@
                         </li>
                     </ul>
                 </div>      
-            </section>
+            </div>
             <section class="author">  
                 <span>BEATRIZ DEVF</span>
                 <span>hace 2 días</span>
             </section>
 
-            <!-- Main -->
+            <!-- Articulo -->
             <div class="informacion">
                 <main id="main">
                     
                     <section class="story-section">
                     <article>
-                        <p> tecnología avanza de una forma impresionante, lo que hoy es lo más avanzado e innovador en unos años se convierte en obsoleto, y ya no digamos en unos años, en unos cuantos meses para el caso de algunos dispositivos. Al estar dentro de estos temas todos los días, tal vez podemos olvidar cómo ha sido esta evolución, o bien, perder la capacidad de asombro, por ello las cosas que hablan del futuro suelen entusiasmarnos, aunque se trate de prototipos o ideas, ya que nos hace imaginar cómo será la vida dentro de algunos años.
+                        <p> La tecnología avanza de una forma impresionante, lo que hoy es lo más avanzado e innovador en unos años se convierte en obsoleto, y ya no digamos en unos años, en unos cuantos meses para el caso de algunos dispositivos. Al estar dentro de estos temas todos los días, tal vez podemos olvidar cómo ha sido esta evolución, o bien, perder la capacidad de asombro, por ello las cosas que hablan del futuro suelen entusiasmarnos, aunque se trate de prototipos o ideas, ya que nos hace imaginar cómo será la vida dentro de algunos años.
                         <br>Pero estas predicciones no son algo exclusivo de estos días, es más, ahora se ha dejado un poco esto, ya que hace varios años era una práctica común donde se solía imaginar con máquinas, robots, hologramas... vamos, con tecnológica que llegaría a facilitar la vida de los seres humanos. Todo esto tuvo su explosión a inicios del siglo XX, donde la mira estaba puesta en el siguiente siglo y donde se suponía que llegaría el cambio más radical de todos.
                         <br>Esto se volvió una especie de género por sí mismo, algo que se le conoce como Paleofuturo. De aquí surgieron columnas en diarios, revistas y publicaciones especializadas, donde todas se dedicaban a predecir cómo sería nuestra vida en el futuro gracias a la tecnología. Y ahora, hemos decidido viajar en el tiempo y hacer un repaso por esas magnificas publicaciones, viendo cómo se suponía que deberíamos vivir hoy día.
                         </p>
@@ -176,10 +176,9 @@
                     
             </div>
 
-        </container>
-        
+        </div>
+        <!-- Lo Más Leído-->
         <div class="container">
-            <!--Carrousel-->
             <div class="container-carrousel">
                 <h3 class="title_carrousel">LO MÁS LEÍDO</h3>
                 <div class="notas">
@@ -201,15 +200,17 @@
             </div>
             </div>
             <div class="container-carrousel-finanzas">
-                <div class="comentarios">
+
+            <!--Comentarios-->
+            <div class="comentarios">
 
                     <div class="comment_field">
-                        <p>Agregar un comentarios</p>
-                            <button>PUBLICAR</button>
+                        <input type="text" id="coment" name="Comentar">
+                        <button>PUBLICAR</button>
                         
                     </div>
                     <div class="number_comments">
-                        <h4><img src="img/textsms.png" alt="">8 comentarios</h4>
+                        <img src="img/textsms.png" alt=""><h4>8 comentarios</h4>
                     </div>
                     <div class="nota-carrousel_comentarios"> 
                         <img class="avatar" src="img/avatar1.png" alt="">
@@ -223,11 +224,11 @@
                     </div>
                 <div class="nota-carrousel_comentarios">
                     <img class="avatar" src="img/avatar2.png" alt="">
-                <div class="text_comments"><h6>25 Ene. 2016, 6:29</h6>
-                    <p>¿Por qué imaginaban que la tecnología la usaría sólo gente mayor? Son todos cuarentones, cuando en la realidad los cuarentones y mayores son precisamente los que reniegan de las tecnologías modernas y se aferran al pasado. Como norma general.</p>
-                    <img class= "like" src="img/thumb_down.png" alt="">1 
-                    <img class= "like" src="img/thumb_up.png" alt="">3
-                </div>
+                    <div class="text_comments"><h6>25 Ene. 2016, 6:29</h6>
+                        <p>¿Por qué imaginaban que la tecnología la usaría sólo gente mayor? Son todos cuarentones, cuando en la realidad los cuarentones y mayores son precisamente los que reniegan de las tecnologías modernas y se aferran al pasado. Como norma general.</p>
+                        <img class= "like" src="img/thumb_down.png" alt="">1 
+                        <img class= "like" src="img/thumb_up.png" alt="">3
+                    </div>
                 </div>
                 <div class="nota-carrousel_comentarios">
                     <img class="avatar" src="img/avatar3.png" alt="">
@@ -236,11 +237,11 @@
                         y la de la videollamada del 68 que dice "algún día seras una estrella", aunque fuera un slogan suena a profecía involuntaria, mas de uno se hizo famoso así</p>
                         <img class= "like" src="img/thumb_down.png" alt="">1
                         <img class= "like" src="img/thumb_up.png" alt="">3
-                </div>
+                    </div>
                 </div>
             </div>
         </div>
-<!--Grid--></div>
+        </div>
 
         <!--footer-->
         <footer>
